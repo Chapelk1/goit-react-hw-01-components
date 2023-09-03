@@ -15,6 +15,17 @@ export const Section = styled.section`
   border-radius: 4px;
   margin-bottom: 30px;
 `;
+
+export const SectionName = styled.h2`
+  margin: 0 auto;
+  margin-bottom: 30px;
+`;
+
+export const StatList = styled.ul`
+  display: flex;
+  justify-content: space-around;
+`;
+
 export const Li = styled.li`
   display: flex;
   flex-direction: column;
@@ -22,5 +33,9 @@ export const Li = styled.li`
   width: 60px;
   height: 60px;
   justify-content: center;
-  background-color: ${getRandomHexColor()};
+  background-color: ${getRandomHexColor};
 `;
+
+export const Label = styled.span``;
+
+export const Percentage = styled.span``;
